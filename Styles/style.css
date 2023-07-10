@@ -144,9 +144,18 @@ header {
     font-weight: 800;
 }
 
+.social-img{
+    align-items: center;
+}
 .insta-title{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 
+}
+.insta-img{
+    margin: 50px 240px;
+    justify-content: space-around;
+    gap: 24px;
+    
 }
