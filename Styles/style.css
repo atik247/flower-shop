@@ -1,0 +1,43 @@
+/* Header section styles start here */
+
+/* google font style rules */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 750px;
+}
+
+.banner-description {
+    max-width: 750px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    gap: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner .banner-flower {
+    width: 635px;
+    height: 800px;
+}
