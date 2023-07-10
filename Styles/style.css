@@ -58,23 +58,64 @@ header {
 }
 
 .section-description {
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(49, 22, 22, 0.6);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
+
+.flowers {
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 240px;
+}
+
+.flowers-title {
+    display: flex;
+    justify-content: space-around;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-block: 50px 350px;
+    text-decoration-line: underline;
+}
+
+.flowers-img1 {
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    gap: 24px;
+
+
+}
+
+.flowers-img2 {
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    gap: 24px;
+}
+
+.flowers-img3 {
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    gap: 24px;
+}
+
+
+
 .service-container {
     display: flex;
     justify-content: space-around;
     background: rgba(39, 39, 39, 0.05);
     align-items: center;
-    gap: 30px;
     border-radius: 8px;
-    max-width: 1440px;
-    margin: 240px;
+    padding: 150px 240px;
 }
 
-.delivery-img{
+.delivery-img {
     align-items: center;
 }
 
@@ -85,8 +126,20 @@ header {
     font-weight: 600;
 }
 
-.flowers{
-    background: fixed;
+
+
+.deal {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 400px;
+    gap: 40px;
+}
+
+.deal-title {
+    olor: #272727;
+    font-size: 40px;
+    font-weight: 800;
 }
